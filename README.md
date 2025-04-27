@@ -30,19 +30,6 @@ customer-support-analysis/
 - Python 3.8+ installed
 - pip package manager
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/customer-support-analysis.git
-   cd customer-support-analysis
-   ```
-2. Create a virtual environment and install dependencies:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows use `venv\\Scripts\\activate`
-   pip install -r requirements.txt
-   ```
-
 ## Data Description
 The `data/` folder contains two CSV files:
 - `customer_support_tickets.csv`: Raw ticket-level data including descriptions, priorities, timestamps, and satisfaction ratings.
